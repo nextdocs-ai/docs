@@ -260,7 +260,7 @@ enterprise-плане.
 **С Confluence** — экспорт HTML и импорт в Nextdocs. Иерархия,
 форматирование, ссылки переносятся. Теряются кастом-макросы Jira и
 некоторые специфичные плагины. См.
-[Integrations](./09-integrations.md).
+[Integrations](09-integrations.md).
 
 **С Notion** — экспортируете в markdown-zip, импортируете через
 «From ZIP» с треатинг как обычного markdown-репозитория. Работает

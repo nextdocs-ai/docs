@@ -38,7 +38,7 @@ Standard markdown shortcuts work:
 Ctrl/Cmd+Z — undo, Ctrl/Cmd+Shift+Z — redo. History is local to the
 current session: recent steps can be rolled back, but once you close
 the page, Ctrl+Z is no longer enough — use the **History tab** in the
-right panel (see [History](./04-history.md)).
+right panel (see [History](04-history.md)).
 
 ### Slash commands (`/` menu)
 
@@ -60,7 +60,7 @@ Available blocks:
   storage, only a link stays in the text (not base64), so the page
   doesn't bloat.
 - **Diagram** — TLDraw editor: geometric schemes, arrows, stickers.
-  See [Diagrams](./03-diagrams.md).
+  See [Diagrams](03-diagrams.md).
 - **Excalidraw** — Excalidraw sketch in hand-drawn style. Same doc.
 - **YouTube** — video embed via URL.
 - **Demo · …** — interactive demo widgets (grow over time — a way to
@@ -70,7 +70,7 @@ Available blocks:
 
 Type `@` anywhere — a popover opens with people in the project. Pick
 a colleague — an `@Name` chip appears in the text, and the person is
-notified. Details — [Comments & mentions](./06-comments-mentions.md).
+notified. Details — [Comments & mentions](06-comments-mentions.md).
 
 ### Links
 
@@ -106,7 +106,7 @@ Lost:
 - Text colours, highlights, multi-colour underlines — normalised to
   standard (rainbow-styled docs are rare in documentation).
 - Google Docs tables — come across as Nextdocs tables; see
-  [Tables](./14-tables.md).
+  [Tables](14-tables.md).
 
 ### Notion
 
@@ -123,7 +123,7 @@ Copy a page (or any block) from Notion → paste. Supported:
 - **Image / file** — images. File attachments as links.
 - **Notion inline mentions** — converted to plain text with the name
   (our `@` mentions are re-established manually only — see
-  [Comments & Mentions](./06-comments-mentions.md)).
+  [Comments & Mentions](06-comments-mentions.md)).
 
 Lost: Notion-specific databases (database views), Figma / Miro
 embeds (link stays, rendering doesn't), pages-as-relations (turn
@@ -174,7 +174,7 @@ Lost:
 - Conditional formatting (cell colours).
 - Merged cells — become regular (value duplicated).
 
-More on tables — [Tables](./14-tables.md).
+More on tables — [Tables](14-tables.md).
 
 ### CSV / TSV
 
@@ -205,14 +205,14 @@ a PDF import at the page level:
   choose "Attach as file". A link-attachment is inserted (click
   opens the PDF in a new tab).
 
-More — [Integrations → PDF](./09-integrations.md#pdf).
+More — [Integrations → PDF](09-integrations.md#pdf).
 
 ### ZIP / archives
 
 Drop a ZIP into the window — a menu appears: "Upload attachment /
 Try to import as repository". The second option only works at the
 project level (creates pages from the archive contents) —
-[Integrations](./09-integrations.md).
+[Integrations](09-integrations.md).
 
 ## Smart normalisation
 
@@ -240,7 +240,7 @@ editor: matches are highlighted, Enter jumps between them.
 access).
 
 `Cmd/Ctrl+K` — opens **global search + AI agent** (details:
-[Search](./08-search.md) and [AI Agent](./08a-ai-agent.md)).
+[Search](08-search.md) and [AI Agent](08a-ai-agent.md)).
 
 ## Table of contents (ToC)
 

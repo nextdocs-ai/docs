@@ -51,48 +51,48 @@ assembly, less SaaS burn, fewer places where something might break.
 
 ## Where to start
 
-1. [Creating a project](./01-projects.md) — how to spin up an empty
+1. [Creating a project](01-projects.md) — how to spin up an empty
    project or import docs from GitHub.
-2. [Editor and slash commands](./02-editor.md) — how to write, insert
+2. [Editor and slash commands](02-editor.md) — how to write, insert
    headings, lists, code, and media.
-3. [Inviting your team](./10-permissions.md) — how to grant colleagues
+3. [Inviting your team](10-permissions.md) — how to grant colleagues
    read and write access.
 
 ## Table of contents
 
 ### Content
 
-- [Projects and repositories](./01-projects.md)
-- [Editor and slash commands](./02-editor.md) — including pasting from
+- [Projects and repositories](01-projects.md)
+- [Editor and slash commands](02-editor.md) — including pasting from
   Google Docs, Notion, Word, Excel, CSV, HTML, markdown
-- [Tables](./14-tables.md)
-- [Diagrams — Mermaid, TLDraw, Excalidraw](./03-diagrams.md)
-- [Version history and rollback](./04-history.md)
+- [Tables](14-tables.md)
+- [Diagrams — Mermaid, TLDraw, Excalidraw](03-diagrams.md)
+- [Version history and rollback](04-history.md)
 
 ### Teamwork
 
-- [Collaborative editing and presence](./05-collaboration.md)
-- [Comments and @-mentions](./06-comments-mentions.md)
-- [Notifications and activity feed](./07-notifications.md)
-- [Permissions and invitations](./10-permissions.md)
+- [Collaborative editing and presence](05-collaboration.md)
+- [Comments and @-mentions](06-comments-mentions.md)
+- [Notifications and activity feed](07-notifications.md)
+- [Permissions and invitations](10-permissions.md)
 
 ### Search and navigation
 
-- [Search across documentation](./08-search.md)
-- [AI agent (search + page create/edit)](./08a-ai-agent.md)
-- [Recently visited pages](./11-recently-visited.md)
+- [Search across documentation](08-search.md)
+- [AI agent (search + page create/edit)](08a-ai-agent.md)
+- [Recently visited pages](11-recently-visited.md)
 
 ### Integrations
 
-- [GitHub, Confluence, PDF, ZIP — import and sync](./09-integrations.md)
+- [GitHub, Confluence, PDF, ZIP — import and sync](09-integrations.md)
 
 ### User settings
 
-- [Profile and preferences](./12-profile.md)
+- [Profile and preferences](12-profile.md)
 
 ### Comparison with other tools
 
-- [Nextdocs vs Confluence / Notion / GitBook / Outline / ReadMe](./13-comparison.md)
+- [Nextdocs vs Confluence / Notion / GitBook / Outline / ReadMe](13-comparison.md)
 
 ## Glossary
 

@@ -143,7 +143,7 @@ Max archive size — 100 MB.
 - **Comments** — not transferred, because they reference
   Confluence users who don't exist in Nextdocs.
 - **Watchers / permissions** — need to be re-created (see
-  [Permissions](./10-permissions.md)).
+  [Permissions](10-permissions.md)).
 
 ### What's preserved
 

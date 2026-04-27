@@ -111,7 +111,7 @@ Search always works within **projects you have access to**:
 
 If a project is public — its pages are found by the internal
 search for everyone (including logged-out users) and by Google /
-Yandex (see the SEO section in [Projects](./01-projects.md)).
+Yandex (see the SEO section in [Projects](01-projects.md)).
 
 ## Hotkeys in the panel
 
@@ -138,7 +138,7 @@ Not indexed:
 - Raw comments (separate comment search is TBD).
 - Repository sources — indexed separately and accessed via the
   **AI agent**, not full-text search (see
-  [AI Agent](./08a-ai-agent.md)).
+  [AI Agent](08a-ai-agent.md)).
 
 ## Indexing lag
 
@@ -187,7 +187,7 @@ Fast, predictable, deterministic, no LLM in the loop.
 
 The AI agent answers **what**: "explain how this is built", plus
 it can **do things**: create a page, update a section, move the
-tree. See [AI Agent](./08a-ai-agent.md).
+tree. See [AI Agent](08a-ai-agent.md).
 
 Both open with `Cmd/Ctrl+K` and switch with one click in the
 panel. In practice the two are used together: fast search first,

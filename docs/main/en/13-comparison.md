@@ -255,7 +255,7 @@ fastest way to write and share a single document.
 **From Confluence** — export HTML, import into Nextdocs.
 Hierarchy, formatting, links transfer. Custom Jira macros and
 some plugin-specific blocks are lost. See
-[Integrations](./09-integrations.md).
+[Integrations](09-integrations.md).
 
 **From Notion** — export markdown zip, import via "From ZIP"
 treated as a regular markdown repo. Text works well, embeds

@@ -142,7 +142,7 @@ Nextdocs + 5 репозиториев привязаны → единое мес
 - **Комментарии** — не переносятся, потому что они относятся к
   Confluence-юзерам, которых нет в Nextdocs.
 - **Watchers / permissions** — настройки прав надо пересоздать
-  заново (см. [Permissions](./10-permissions.md)).
+  заново (см. [Permissions](10-permissions.md)).
 
 ### Что остаётся
 

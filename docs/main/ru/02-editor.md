@@ -39,7 +39,7 @@ Ctrl/Cmd+Z — undo, Ctrl/Cmd+Shift+Z — redo. История работает
 локально внутри одной сессии: недавние шаги можно откатить, но если
 вы закрыли страницу, откатиться через Ctrl+Z нельзя — для этого
 используйте **вкладку History** в правой панели (см.
-[History](./04-history.md)).
+[History](04-history.md)).
 
 ### Слеш-команды (меню «/»)
 
@@ -63,7 +63,7 @@ Ctrl/Cmd+Z — undo, Ctrl/Cmd+Shift+Z — redo. История работает
   совместимый storage, в тексте остаётся только ссылка (не base64),
   так что страница не раздувается.
 - **Diagram** — редактор TLDraw: геометрические схемы, стрелки,
-  стикеры. См. [Diagrams](./03-diagrams.md).
+  стикеры. См. [Diagrams](03-diagrams.md).
 - **Excalidraw** — Excalidraw-скетч, hand-drawn стиль. Там же.
 - **YouTube** — встраивание видео по ссылке.
 - **Demo · …** — интерактивные демо-виджеты (появляются по мере
@@ -74,7 +74,7 @@ Ctrl/Cmd+Z — undo, Ctrl/Cmd+Shift+Z — redo. История работает
 
 Введите `@` в любом месте текста — откроется попап со списком людей
 из проекта. Выберите коллегу — в тексте появится чип `@Имя`, и этому
-человеку придёт уведомление. Подробнее — [Comments & mentions](./06-comments-mentions.md).
+человеку придёт уведомление. Подробнее — [Comments & mentions](06-comments-mentions.md).
 
 ### Ссылки
 
@@ -112,7 +112,7 @@ Ctrl/Cmd+Z — undo, Ctrl/Cmd+Shift+Z — redo. История работает
 - Цвета текста, highlight'ы, подчёркивание разных цветов —
   нормализуются в стандартные (в документации редко нужен rainbow).
 - Таблицы из Google Docs — переносятся как Nextdocs-таблицы, про
-  них см. [Tables](./14-tables.md).
+  них см. [Tables](14-tables.md).
 
 ### Notion
 
@@ -130,7 +130,7 @@ Ctrl/Cmd+Z — undo, Ctrl/Cmd+Shift+Z — redo. История работает
 - **Image / file** — изображения. Файлы-аттачменты — как ссылка.
 - **Inline mentions из Notion** — конвертируются в plain-текст с
   именем (наши `@`-упоминания пересобираются только вручную — см.
-  [Comments & Mentions](./06-comments-mentions.md)).
+  [Comments & Mentions](06-comments-mentions.md)).
 
 Что теряется: Notion-специфичные базы данных (database views),
 embed'ы Figma / Miro (ссылка остаётся, рендеринг — нет), pages-as-
@@ -181,7 +181,7 @@ relations (превращаются в ссылки).
 - Conditional formatting (цвета ячеек).
 - Merged cells — становятся обычными (с дублированием значения).
 
-Подробнее про таблицы — [Tables](./14-tables.md).
+Подробнее про таблицы — [Tables](14-tables.md).
 
 ### CSV / TSV
 
@@ -213,13 +213,13 @@ relations (превращаются в ссылки).
   выберите «Attach as file». Вставится ссылка-вложение (клик —
   открывает PDF в новой вкладке).
 
-Подробнее — [Integrations → PDF](./09-integrations.md#pdf).
+Подробнее — [Integrations → PDF](09-integrations.md#pdf).
 
 ### ZIP / архивы
 
 Перетаскиваете ZIP в окно — появится меню «Upload attachment / Try
 to import as repository». Второй вариант работает только на уровне
-проекта (создаёт страницы из содержимого) — [Integrations](./09-integrations.md).
+проекта (создаёт страницы из содержимого) — [Integrations](09-integrations.md).
 
 ## Умная нормализация
 
@@ -249,7 +249,7 @@ Slack / Notion / email — получатель увидит нормально
 (если у вас есть права на редактирование).
 
 `Cmd/Ctrl+K` — открывает **глобальный поиск + AI-агент** (подробно:
-[Search](./08-search.md) и [AI Agent](./08a-ai-agent.md)).
+[Search](08-search.md) и [AI Agent](08a-ai-agent.md)).
 
 ## Оглавление (ToC) и TL;DR
 

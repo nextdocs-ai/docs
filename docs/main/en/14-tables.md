@@ -24,7 +24,7 @@ by default (bold, fixed font).
 ### From the clipboard
 
 See the "Pasting from the clipboard" section in
-[Editor](./02-editor.md):
+[Editor](02-editor.md):
 
 - **From Excel / Google Sheets** — Cmd+C a range → Cmd+V in
   Nextdocs → a table with the correct size and contents.
@@ -139,7 +139,7 @@ contents. A match highlights the specific cell on page open.
 ## Typical scenarios
 
 **Product comparison** (like the table in
-[13-comparison.md](./13-comparison.md)). Properties in rows,
+[13-comparison.md](13-comparison.md)). Properties in rows,
 products in columns. Fill with ✅ / ❌ / ⚠️. One table replaces
 five paragraphs of text.
 

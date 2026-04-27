@@ -86,7 +86,7 @@ Clicking such an avatar navigates to their page.
 ## Comments and mentions
 
 A separate mechanic, tightly related to collaboration. See
-[Comments & Mentions](./06-comments-mentions.md).
+[Comments & Mentions](06-comments-mentions.md).
 
 ## Presence and privacy
 

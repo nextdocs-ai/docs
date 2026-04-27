@@ -2,7 +2,7 @@
 
 ## Why it matters
 
-Full-text search (see [Search](./08-search.md)) answers "where does
+Full-text search (see [Search](08-search.md)) answers "where does
 word X appear in the docs". That's fast and useful, but often you
 need more:
 
@@ -91,7 +91,7 @@ shows a diff (before vs after) before making changes. You see
 line-by-line edits with highlights.
 
 Changes land in page history as `agent_update` records. Rollback
-works the normal way (see [History](./04-history.md)).
+works the normal way (see [History](04-history.md)).
 
 ### 4. Structural operations
 
