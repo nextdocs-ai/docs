@@ -1,5 +1,7 @@
 # Version history and rollback
 
+<Demo type="history" />
+
 ## Why it matters
 
 A documentation page lives for a long time — and gets touched often.\
