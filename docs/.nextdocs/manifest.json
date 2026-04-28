@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "default_variant": "main-en",
   "pages": {
     "main/en/00-nextdocs-user-guide.md": "main/en/00-nextdocs-user-guide.md",
     "main/en/01-projects-and-repositories.md": "main/en/01-projects-and-repositories.md",
