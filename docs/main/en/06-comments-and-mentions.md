@@ -1,5 +1,7 @@
 # Comments and mentions
 
+<Demo type="comments" />
+
 ## Why it matters
 
 When documentation is written collectively, discussions are\
