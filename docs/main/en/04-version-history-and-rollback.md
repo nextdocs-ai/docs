@@ -1,6 +1,5 @@
 # Version history and rollback
 
-<Demo type="history" />
 
 ## Why it matters
 
