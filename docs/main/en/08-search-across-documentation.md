@@ -1,4 +1,4 @@
-# Search across documentation
+# Search in project
 
 ## Why it matters
 
