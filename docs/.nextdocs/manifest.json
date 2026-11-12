@@ -17,6 +17,7 @@
     "main/en/12-profile-and-preferences.md": "main/en/12-profile-and-preferences.md",
     "main/en/13-comparison-with-other-documentation-tools.md": "main/en/13-comparison-with-other-documentation-tools.md",
     "main/en/14-tables.md": "main/en/14-tables.md",
+    "main/en/15-github-app-access-and-organisations.md": "main/en/15-github-app-access-and-organisations.md",
     "main/en/ai-agent.md": "main/en/ai-agent.md",
     "main/ru/00-nextdocs-rukovodstvo-polzovatelya.md": "main/en/00-nextdocs-user-guide.md",
     "main/ru/01-proekty-i-repozitorii.md": "main/en/01-projects-and-repositories.md",
@@ -33,6 +34,8 @@
     "main/ru/12-profil-i-nastroyki.md": "main/en/12-profile-and-preferences.md",
     "main/ru/13-sravnenie-s-drugimi-instrumentami-dokumentatsii.md": "main/en/13-comparison-with-other-documentation-tools.md",
     "main/ru/14-tablitsy.md": "main/en/14-tables.md",
-    "main/ru/ai-agent.md": "main/en/ai-agent.md"
+    "main/ru/15-github-app-dostup-i-organizatsii.md": "main/en/15-github-app-access-and-organisations.md",
+    "main/ru/ai-agent.md": "main/en/ai-agent.md",
+    "main/en/16-widget-api-reference.md": "main/en/16-widget-api-reference.md"
   }
 }
