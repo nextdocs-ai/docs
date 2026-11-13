@@ -36,6 +36,8 @@
     "main/ru/14-tablitsy.md": "main/en/14-tables.md",
     "main/ru/15-github-app-dostup-i-organizatsii.md": "main/en/15-github-app-access-and-organisations.md",
     "main/ru/ai-agent.md": "main/en/ai-agent.md",
-    "main/en/16-widget-api-reference.md": "main/en/16-widget-api-reference.md"
+    "main/en/16-widget-api-reference.md": "main/en/16-widget-api-reference.md",
+    "main/en/17-agent-setup.md": "main/en/17-agent-setup.md",
+    "main/ru/17-nastroyka-agentov.md": "main/en/17-agent-setup.md"
   }
 }
