@@ -539,7 +539,7 @@ qwen
 
 ## Grok
 
-Модели xAI через тот же CLI Qwen Code: xAI отдаёт chat completions, а он на них и говорит.
+Собственный агент xAI — по входу в аккаунт xAI или по ключу API. Он печатает то же, что печатает Claude Code, и принимает его правила разрешений, так что вместе с Claude Code это один из двух здесь, у кого есть план на утверждение, правила для отдельных команд и стоимость хода.
 
 <Tabs>
 <TabItem label="macOS" value="macos">
@@ -548,22 +548,31 @@ qwen
 <Step title="Установка">
 
 ```bash
-npm install -g @qwen-code/qwen-code@latest
+curl -fsSL https://x.ai/cli/install.sh | bash
 ```
 
 Другие способы:
 
-* Homebrew — `brew install qwen-code`
+* npm — `npm install -g @xai-official/grok`
 
 </Step>
-<Step title="Указать на него сервер моделей">
+<Step title="Вход">
 
-В десктопном приложении: Settings → Agents → Model server — адрес `https://api.x.ai/v1`, модель `grok-4`, ключ отсюда: console.x.ai. Сервер задаётся один, поэтому агенты с этой страницы, которым он нужен, пользуются им по очереди.
+Opens a browser for your xAI account; the session lands in ~/.grok/auth.json.
+
+```bash
+grok login
+```
+
+</Step>
+<Step title="Или ключ API вместо входа">
+
+В десктопном приложении: Settings → Secrets → Model keys, как **xAI** (`XAI_API_KEY`). Ключ — это оплата по факту там, где вход — подписка, и для провайдера, который подписок не продаёт, это единственный путь. Если есть и то и другое, побеждает ключ, и расход идёт по нему.
 
 </Step>
 <Step title="Проверка">
 
-Выполните `qwen --version`. В десктопном приложении кнопка **Check again** на странице настройки сделает отметку агента зелёной, как только он сможет запуститься.
+Выполните `grok --version`. В десктопном приложении кнопка **Check again** на странице настройки сделает отметку агента зелёной, как только он сможет запуститься.
 
 </Step>
 </Steps>
@@ -575,20 +584,31 @@ npm install -g @qwen-code/qwen-code@latest
 <Step title="Установка">
 
 ```bash
-npm install -g @qwen-code/qwen-code@latest
+curl -fsSL https://x.ai/cli/install.sh | bash
 ```
 
-Нужен Node.js: `curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash && nvm install 22`
+Другие способы:
+
+* npm — `npm install -g @xai-official/grok`
 
 </Step>
-<Step title="Указать на него сервер моделей">
+<Step title="Вход">
 
-В десктопном приложении: Settings → Agents → Model server — адрес `https://api.x.ai/v1`, модель `grok-4`, ключ отсюда: console.x.ai. Сервер задаётся один, поэтому агенты с этой страницы, которым он нужен, пользуются им по очереди.
+Opens a browser for your xAI account; the session lands in ~/.grok/auth.json.
+
+```bash
+grok login
+```
+
+</Step>
+<Step title="Или ключ API вместо входа">
+
+В десктопном приложении: Settings → Secrets → Model keys, как **xAI** (`XAI_API_KEY`). Ключ — это оплата по факту там, где вход — подписка, и для провайдера, который подписок не продаёт, это единственный путь. Если есть и то и другое, побеждает ключ, и расход идёт по нему.
 
 </Step>
 <Step title="Проверка">
 
-Выполните `qwen --version`. В десктопном приложении кнопка **Check again** на странице настройки сделает отметку агента зелёной, как только он сможет запуститься.
+Выполните `grok --version`. В десктопном приложении кнопка **Check again** на странице настройки сделает отметку агента зелёной, как только он сможет запуститься.
 
 </Step>
 </Steps>
@@ -600,20 +620,31 @@ npm install -g @qwen-code/qwen-code@latest
 <Step title="Установка">
 
 ```bash
-npm install -g @qwen-code/qwen-code@latest
+irm https://x.ai/cli/install.ps1 | iex
 ```
 
-Нужен Node.js: `winget install OpenJS.NodeJS.LTS`
+Другие способы:
+
+* npm — `npm install -g @xai-official/grok`
 
 </Step>
-<Step title="Указать на него сервер моделей">
+<Step title="Вход">
 
-В десктопном приложении: Settings → Agents → Model server — адрес `https://api.x.ai/v1`, модель `grok-4`, ключ отсюда: console.x.ai. Сервер задаётся один, поэтому агенты с этой страницы, которым он нужен, пользуются им по очереди.
+Opens a browser for your xAI account; the session lands in ~/.grok/auth.json.
+
+```bash
+grok login
+```
+
+</Step>
+<Step title="Или ключ API вместо входа">
+
+В десктопном приложении: Settings → Secrets → Model keys, как **xAI** (`XAI_API_KEY`). Ключ — это оплата по факту там, где вход — подписка, и для провайдера, который подписок не продаёт, это единственный путь. Если есть и то и другое, побеждает ключ, и расход идёт по нему.
 
 </Step>
 <Step title="Проверка">
 
-Выполните `qwen --version`. В десктопном приложении кнопка **Check again** на странице настройки сделает отметку агента зелёной, как только он сможет запуститься.
+Выполните `grok --version`. В десктопном приложении кнопка **Check again** на странице настройки сделает отметку агента зелёной, как только он сможет запуститься.
 
 </Step>
 </Steps>
@@ -623,15 +654,15 @@ npm install -g @qwen-code/qwen-code@latest
 
 :::note
 
-**Что стоит знать.** Это сервер моделей, а не вход, поэтому он делит одну настройку Model server со «своей моделью»: один адрес за раз, чей задали последним.
+**Что стоит знать.** Свой установщик кладёт его в ~/.grok/bin ещё до того, как он появится в PATH, — туда же смотрит и Nextdocs, поэтому он находится даже тогда, когда ваш шелл запустить его ещё не может. На npm есть и сторонний «grok-cli» — это не он: официальный пакет называется @xai-official/grok.
 
 :::
 
-[Его собственная документация](https://docs.x.ai/docs/api-reference)
+[Его собственная документация](https://x.ai/build)
 
 ## A model of your own
 
-Всё, что отдаёт OpenAI-совместимый API, — Ollama, vLLM или LM Studio на этой машине, или провайдер вроде DeepSeek и OpenRouter.
+Всё, что отдаёт OpenAI-совместимый API, — Ollama, vLLM или LM Studio на этой машине, или провайдер вроде DeepSeek и OpenRouter. Сервер задаётся один, и это тот же сервер, на который при случае опирается карточка Qwen.
 
 <Tabs>
 <TabItem label="macOS" value="macos">
