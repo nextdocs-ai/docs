@@ -43,21 +43,39 @@ flowchart LR
 
 ### Что умеет Mermaid
 
-* **flowchart** — стрелочные схемы (LR/TB направления).
+* **flowchart** / **graph** — стрелочные схемы (LR/TB направления).
 
 * **sequenceDiagram** — взаимодействие участников во времени.
 
-* **classDiagram** — UML-классы.
+* **classDiagram**, **classDiagram-v2** — UML-классы.
 
 * **erDiagram** — ER-модели БД.
 
-* **stateDiagram-v2** — конечные автоматы.
+* **stateDiagram**, **stateDiagram-v2** — конечные автоматы, в том числе\
+  с вложенными состояниями.
 
 * **gantt** — расписания и планирование.
 
 * **pie** — круговые диаграммы.
 
 * **journey** — пользовательский сценарий.
+
+* **quadrantChart**, **xychart**, **radar-beta**, **sankey**,\
+  **treemap** — графики.
+
+* **mindmap**, **timeline**, **kanban**, **block**, **packet** —\
+  структура и раскладка.
+
+* **architecture-beta** — сервисы и группы, с иконками.
+
+* **gitGraph** — ветки и мерджи.
+
+* **requirementDiagram** и набор C4 (**C4Context**, **C4Container**,\
+  **C4Component**, **C4Dynamic**, **C4Deployment**).
+
+Двух типов самого Mermaid здесь нет: **zenuml** (нужен отдельный плагин\
+Mermaid) и баннер **info**. `architecture` и `radar` работают только в\
+написании с `-beta`, а `kanban-beta` не существует — пишите `kanban`.
 
 Полная грамматика — на <https://mermaid.js.org>.
 
