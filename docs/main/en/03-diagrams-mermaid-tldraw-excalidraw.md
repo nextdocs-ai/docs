@@ -46,21 +46,40 @@ re-renders in real time.
 
 ### What Mermaid can do
 
-* **flowchart** — arrow diagrams (LR/TB directions).
+* **flowchart** / **graph** — arrow diagrams (LR/TB directions).
 
 * **sequenceDiagram** — participant interaction over time.
 
-* **classDiagram** — UML classes.
+* **classDiagram**, **classDiagram-v2** — UML classes.
 
 * **erDiagram** — ER database models.
 
-* **stateDiagram-v2** — finite state machines.
+* **stateDiagram**, **stateDiagram-v2** — finite state machines,\
+  composite states included.
 
 * **gantt** — schedules and planning.
 
 * **pie** — pie charts.
 
 * **journey** — user journeys.
+
+* **quadrantChart**, **xychart**, **radar-beta**, **sankey**,\
+  **treemap** — charts.
+
+* **mindmap**, **timeline**, **kanban**, **block**, **packet** —\
+  structure and layout.
+
+* **architecture-beta** — services and groups, with icons.
+
+* **gitGraph** — branches and merges.
+
+* **requirementDiagram** and the C4 set (**C4Context**,\
+  **C4Container**, **C4Component**, **C4Dynamic**, **C4Deployment**).
+
+Two of Mermaid's own types are not available here: **zenuml** (it needs\
+a separate Mermaid plugin) and the **info** banner. `architecture` and\
+`radar` work only in their `-beta` spelling, and there is no\
+`kanban-beta` — write `kanban`.
 
 Full grammar — <https://mermaid.js.org>.
 
