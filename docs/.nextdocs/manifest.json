@@ -38,6 +38,20 @@
     "main/ru/ai-agent.md": "main/en/ai-agent.md",
     "main/en/16-widget-api-reference.md": "main/en/16-widget-api-reference.md",
     "main/en/17-agent-setup.md": "main/en/17-agent-setup.md",
-    "main/ru/17-nastroyka-agentov.md": "main/en/17-agent-setup.md"
+    "main/ru/17-nastroyka-agentov.md": "main/en/17-agent-setup.md",
+    "main/en/18-environments/index.md": "main/en/18-environments/index.md",
+    "main/en/18-environments/01-environments-and-stands.md": "main/en/18-environments/01-environments-and-stands.md",
+    "main/en/18-environments/02-variables-in-code-blocks.md": "main/en/18-environments/02-variables-in-code-blocks.md",
+    "main/en/18-environments/03-agent-setups.md": "main/en/18-environments/03-agent-setups.md",
+    "main/en/18-environments/04-variable-kinds-and-secrets.md": "main/en/18-environments/04-variable-kinds-and-secrets.md",
+    "main/en/18-environments/05-credentials-and-model-keys.md": "main/en/18-environments/05-credentials-and-model-keys.md",
+    "main/en/18-environments/06-code-on-this-computer.md": "main/en/18-environments/06-code-on-this-computer.md",
+    "main/ru/18-okruzheniya/index.md": "main/en/18-environments/index.md",
+    "main/ru/18-okruzheniya/01-okruzheniya-i-stendy.md": "main/en/18-environments/01-environments-and-stands.md",
+    "main/ru/18-okruzheniya/02-peremennye-v-blokah-koda.md": "main/en/18-environments/02-variables-in-code-blocks.md",
+    "main/ru/18-okruzheniya/03-sredy-agentov.md": "main/en/18-environments/03-agent-setups.md",
+    "main/ru/18-okruzheniya/04-vidy-peremennyh-i-sekrety.md": "main/en/18-environments/04-variable-kinds-and-secrets.md",
+    "main/ru/18-okruzheniya/05-uchetnye-dannye-i-klyuchi-modeley.md": "main/en/18-environments/05-credentials-and-model-keys.md",
+    "main/ru/18-okruzheniya/06-kod-na-etom-kompyutere.md": "main/en/18-environments/06-code-on-this-computer.md"
   }
 }
