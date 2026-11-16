@@ -41,7 +41,7 @@ flowchart TB
 | Owner | Where | Read by | Edited by |
 |---|---|---|---|
 | Workspace | Workspace settings → **Environments** | every knowledge base of the workspace, the workspace's agent setups | owners and admins |
-| Knowledge base | Knowledge base → **Connections** → **Environments** | that knowledge base's code blocks | its admins |
+| Knowledge base | Knowledge base → **Settings** → **Environments** | that knowledge base's code blocks | its admins |
 | You | Settings → **Agents** → **My environments** | your own agent setups | you |
 
 ## Inheritance: set once, override what differs

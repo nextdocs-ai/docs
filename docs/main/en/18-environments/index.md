@@ -83,7 +83,7 @@ flowchart LR
 |---|---|---|
 | Workspace environments | Workspace settings → **Environments** | Nextdocs |
 | Workspace agent setups | Workspace settings → **Agents** → **Agent setups** | Nextdocs |
-| Knowledge base environments | Knowledge base → **Connections** → **Environments** | Nextdocs |
+| Knowledge base environments | Knowledge base → **Settings** → **Environments** | Nextdocs |
 | My environments, my agent setups | Settings → **Agents** | Nextdocs, under your account |
 | Credentials, model keys, values kept on this computer | Settings → **Secrets** (desktop app) | This computer, encrypted by the system keychain |
 | Code on this computer | Settings → **Desktop** (desktop app) | This computer |
